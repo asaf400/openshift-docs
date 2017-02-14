@@ -114,6 +114,18 @@ window.OPENSHIFT_EXTENSION_PROPERTIES = {
 ----
 ====
 
+[[available-icons]]
+=== Available Icons
+
+when possible. You can also use icons from
+link:http://fontawesome.io/icons/[FontAwesome] and
+link:https://www.patternfly.org/styles/icons/[Patternfly]. Alternatively,
+provide icons through
+xref:../install_config/web_console_customization.adoc#loading-custom-scripts-and-stylesheets[CSS
+customizations] that can be added to an {product-title} cluster that uses your
+template. You must specify an icon class that exists, or it will prevent falling
+back to the generic icon.
+
 [[customizing-the-logo]]
 === Customizing the Logo
 
