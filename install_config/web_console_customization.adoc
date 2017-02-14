@@ -114,18 +114,6 @@ window.OPENSHIFT_EXTENSION_PROPERTIES = {
 ----
 ====
 
-[[available-icons]]
-=== Available Icons
-
-when possible. You can also use icons from
-link:http://fontawesome.io/icons/[FontAwesome] and
-link:https://www.patternfly.org/styles/icons/[Patternfly]. Alternatively,
-provide icons through
-xref:../install_config/web_console_customization.adoc#loading-custom-scripts-and-stylesheets[CSS
-customizations] that can be added to an {product-title} cluster that uses your
-template. You must specify an icon class that exists, or it will prevent falling
-back to the generic icon.
-
 [[customizing-the-logo]]
 === Customizing the Logo
 
@@ -175,6 +163,18 @@ assetConfig:
     - /path/to/help-links.js
 ----
 
+[[available-icons]]
+=== Available Icons
+
+when possible. You can also use icons from
+link:http://fontawesome.io/icons/[FontAwesome] and
+link:https://www.patternfly.org/styles/icons/[Patternfly]. Alternatively,
+provide icons through
+xref:../install_config/web_console_customization.adoc#loading-custom-scripts-and-stylesheets[CSS
+customizations] that can be added to an {product-title} cluster that uses your
+template. You must specify an icon class that exists, or it will prevent falling
+back to the generic icon.
+
 [[adding-or-changing-links-to-download-the-cli]]
 === Adding or Changing Links to Download the CLI
 
@@ -186,6 +186,8 @@ points to the actual packages.
 
 For example, to point directly to packages that can be downloaded, where the
 link text is the package platform:
+
+----
 
 ----
 window.OPENSHIFT_CONSTANTS.CLI = {
